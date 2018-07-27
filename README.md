@@ -1,2 +1,2 @@
-# Orthogonal-Matching-Pursuit
-This is a MATLAB implementation of orthogonal matching pursuit. We solve sparse recovery problem Ax=y where A is an m by N comlex valued matrix with N much larger than m. The algorithm takes in a measurement matrix A and measurement vector y and outputs an s-sparse vector x which solves Ax=y. Included is a program to test the algorithm which uses randomly generated matrices A and shows the performance of the algorithm varying certain parameters. 
+# Orthogonal Matching Pursuit
+OMP.m is a MATLAB implementation of the orthogonal matching pursuit algorithm used for reconstructions of sparse vectors x from Ax=y. OMP adds one index to a target support set S and updates a target vector x as the vector supported on S that best fits the measurements. The algorithm takes as inputs a measurement matrix A and a measurement vector y and outputs a sparse vector x that solves Ax=y. 
